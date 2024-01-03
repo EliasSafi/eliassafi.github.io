@@ -1,0 +1,129 @@
+.container {
+    max-width: none;
+    margin: 10px auto;
+    border: 2px solid grey;
+    padding: 40px;
+    font-family: sans-serif;
+    
+}
+
+h2 {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.color-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.red, .tan, .gold, .sage, .foam {
+    width: calc(100% / 5 - 10px);
+    padding: 10px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+}
+
+.color-label {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.color-hex {
+    font-size: 14px;
+    color: blanchedalmond;
+}
+   .red{
+    background-color: #8C492E;
+   }
+   .tan{
+    background-color: #8A592B;
+   }
+   .gold{
+    background-color: #E4B16B;
+   }
+   .sage{
+    background-color: #698A99;
+   }
+   .foam{
+    background-color: #B6D6C6;
+   }
+  .fontLabelPlayfair{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 24px;
+    color: darkolivegreen;
+  }
+
+  .regularPlayfair{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 18px;
+    color: darkolivegreen;
+  }
+  
+  .boldPlayfair{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 18px;
+    color: darkolivegreen;
+    font-weight: bold;
+  }
+
+  .italicPlayfair{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 18px;
+    color: darkolivegreen;
+    font-style: italic;
+  }
+
+  .fontLabelGaramond{
+    font-family: 'Garamond', serif;
+    font-size: 24px;
+    color: #8A592B;
+  }
+
+  .regularGaramond{
+    font-family: 'Garamond', serif;
+    font-size: 18px;
+    color: #8A592B;
+  }
+
+  .boldGaramond{
+    font-family: 'Garamond', serif;
+    font-size: 18px;
+    color: #8A592B;
+    font-weight: bold;
+  }
+
+  .italicGaramond{
+    font-family: 'Garamond', serif;
+    font-size: 18px;
+    color: #8A592B;
+    font-style: italic;
+  }
+  .fontLabelBungeeSpice{
+    font-family: 'bungee spice', serif;
+    font-size: 24px;
+  }
+
+  .regularBungeeSpice{
+    font-family: 'bungee spice', serif;
+    font-size: 18px;
+  }
+
+  .boldBungeeSpice{
+    font-family: 'Bungee spice', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+  }
+  .italicBungeeSpice{
+    font-style: italic;
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 18px;
+
+  }
+  .fontLabelBungeeSpice, .regularBungeeSpice, .boldBungeeSpice, .italicBungeeSpice{
+    text-align: justify;
+  }
